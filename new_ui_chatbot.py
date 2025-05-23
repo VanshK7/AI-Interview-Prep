@@ -20,7 +20,7 @@ MODEL_DIR = 'salary_model_files'
 
 # --- Gemini API Configuration ---
 # WARNING: Hardcoding API keys is insecure. Use environment variables or secrets management in production.
-API_KEY = "AIzaSyCKMvwyDQ03iDe0B-AB6nPdH-6IaB6zCUE" # User provided key
+API_KEY = "GOOGLE_API_KEY"
 MODEL_NAME = "gemini-2.0-flash" # User requested model
 BASE_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 HEADERS = {"Content-Type": "application/json"}
